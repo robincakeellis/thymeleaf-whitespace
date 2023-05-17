@@ -2,7 +2,7 @@
 
 A working Java project that uses Spring Boot and Thymeleaf to return compact HTML content. Configurable with application properties and with build-time tests.
 
-Read more about this project at [Medium.com](TODO) 
+Read more about this project at [Medium.com](https://robinedwardellis.medium.com/558e54eff586) 
 
 ## Building
 
