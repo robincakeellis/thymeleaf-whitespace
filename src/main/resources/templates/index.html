@@ -13,6 +13,9 @@
 	<h1>Thymeleaf example</h1>
 	<p th:if="${dto.removeWhitespace}">Most whitespace should have been removed.</p>
 	<p th:unless="${dto.removeWhitespace}">Whitespace should remain.</p>
+	<ol>
+		<li th:each="game: ${dto.options}" th:text="${game}"></li>
+	</ol>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac vehicula lacus, non vestibulum lorem.
 		Pellentesque dolor diam, iaculis ut neque consequat, feugiat condimentum neque. Lorem ipsum dolor sit amet,
 		consectetur adipiscing elit. Nulla quam metus, elementum nec condimentum quis, congue quis urna. Donec urna erat,
