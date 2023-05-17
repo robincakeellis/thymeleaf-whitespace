@@ -6,6 +6,7 @@ import org.thymeleaf.postprocessor.IPostProcessor;
 import org.thymeleaf.postprocessor.PostProcessor;
 import org.thymeleaf.templatemode.TemplateMode;
 
+// Original code from Yamani Rodriguez: https://github.com/thymeleaf/thymeleaf/issues/108#issuecomment-761724887
 public class WhitespacePostProcessorDialect implements IPostProcessorDialect {
 
     @Override
