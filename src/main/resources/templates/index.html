@@ -1,0 +1,32 @@
+<!-- this page is formatted with TABS -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>An example page</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/example.css?v=1">
+</head>
+
+<body>
+	<h1>Thymeleaf example</h1>
+	<p th:if="${dto.removeWhitespace}">Most whitespace should have been removed.</p>
+	<p th:unless="${dto.removeWhitespace}">Whitespace should remain.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac vehicula lacus, non vestibulum lorem.
+		Pellentesque dolor diam, iaculis ut neque consequat, feugiat condimentum neque. Lorem ipsum dolor sit amet,
+		consectetur adipiscing elit. Nulla quam metus, elementum nec condimentum quis, congue quis urna. Donec urna erat,
+		vestibulum a sem ut, dapibus sodales ante. Morbi varius mattis justo, vitae lobortis nulla vestibulum nec.
+		Vestibulum et enim at arcu hendrerit interdum ut quis tortor. Etiam vestibulum bibendum eros, at auctor tortor
+		viverra a. Suspendisse potenti. Sed in diam sem. Etiam tincidunt, leo sit amet ultricies feugiat, ante ex facilisis
+		neque, vel commodo nunc ligula vel arcu. Aenean quis est non nisi auctor maximus ut in sem. Integer egestas semper
+		volutpat. Vivamus non sapien et felis efficitur bibendum sed at metus.</p>
+	<p>Aliquam laoreet, lacus eget tincidunt sollicitudin, urna leo ultrices enim, vel ornare leo nisi a justo. In hac
+		habitasse platea dictumst. Quisque sed pharetra neque. Mauris pellentesque ante sed risus aliquam, nec sodales
+		tortor sagittis. Proin gravida accumsan urna imperdiet blandit. Praesent nec auctor lacus. Cras lobortis sodales ex,
+		pretium dictum nunc condimentum vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+		inceptos himenaeos. Vestibulum ac massa eu nisi varius mollis ac sed magna. Nam venenatis ante nec rutrum laoreet.
+	</p>
+</body>
+
+</html>
